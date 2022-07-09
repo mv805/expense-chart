@@ -1,0 +1,11 @@
+.header {
+    align-items: center;
+    color: hsl(33, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.balance {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
