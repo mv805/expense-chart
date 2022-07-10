@@ -1,0 +1,41 @@
+.bar {
+    padding-top: 1rem;
+    height: 200px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.bar-container {
+    /* border: 1px dashed brown; */
+    position: relative;
+    flex: 1;
+}
+
+.filled-bar {
+    height: 1%;
+    position: absolute;
+    bottom: 0;
+    border-radius: .25rem;
+    background-color: hsl(286, 79%, 65%);
+    width: 100%;
+}
+
+.filled-bar:hover {
+    filter: brightness(125%);
+    cursor: pointer;
+}
+
+.tool-tip {
+    background-color: hsl(25, 47%, 15%);
+    color: hsl(27, 66%, 92%);
+    position: absolute;
+    padding: 0.5rem;
+    border-radius: 5px;
+    top: -40px;
+    left: 50%;
+    font-size: .75rem;
+    transform: translateX(-50%);
+}
+
